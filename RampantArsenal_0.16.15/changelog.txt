@@ -1,0 +1,216 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.16.15
+Date: 2. 18. 2019
+  Bugfixes:
+    - Fixed Toxic capsule affecting non-breathing things
+    - Fixed handheld flamethrower arc with naplam
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.14
+Date: 2. 13. 2019
+  Improvements:
+    - Hide ghostless landmines in bonus gui screen
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.13
+Date: 2. 13. 2019
+  Improvements:
+    - Removed capsule launcher landmine ammo from creating ghosts
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.12
+Date: 2. 8. 2019
+  Improvements:
+    - Removed restriction on reactive mending wall and gate cloud limit, replaced with 25% of happening on damage
+  Tweaks:
+    - Decreased rotation speed on advanced laser turret from 0.015 to 0.002
+    - Decreased rotation speed on advanced flamethrower turret from 0.015 to 0.002
+    - Decreased rotation speed on lightning turret from 0.015 to 0.010
+    - Decreased rotation speed on cannon from 0.007 to 0.005
+    - Decreased rotation speed on rapid cannon from 0.007 to 0.006
+    - Decreased rotation speed on capsule launcher from 0.007 to 0.004
+    - Decreased rotation speed on rocket turret from 0.007 to 0.002
+    - Decreased rotation speed on rapid rocket turret from 0.007 to 0.005
+    - Increased advanced flamethrower consumption from 0.8 to 2.2
+    - Decreased advanced flamethrower attack channel width from 20 to 10
+    - Increased range of capsule launcher from 32 to 38
+    - Increased range of rocket turret from 45 to 50
+    - Increased range of rapid rocket turret from 35 to 40
+    - Increased min range from 6 to 15 for advanced flamethrower
+    - Added min range to rapid rocket launcher of 15
+    - Added min range to capsule launcher of 15
+    - Added min range to rocket launcher of 15
+    - Locked area of fire to 108 degrees for rocket launcher
+    - Locked area of fire to 108 degrees for capsule launcher
+    - Locked area of fire to 108 degrees for rapid rocket launcher
+    - Cut the cost of reinforced walls by %50
+    - Increased reinforced walls and gates physical resistance from 3 to 6 decrease
+    - Increased reinforced walls and gates impact resistance from 70 to 80%
+    - Increased reinforced walls and gates explosion resistance from 50 to 60%
+    - Increased reinforced walls and gates explosion resistance from 10 to 20 decrease
+    - Increased reinforced walls and gates electric resistance from 50 to 60%
+    - Increased reinforced walls and gates poison resistance from 50 to 60%
+    - Increased mend wall proc interval from 50 to 175
+    - Increased mend wall duration from 500 to 3000
+    - Decreased mend wall heal amount per interval from -80 to -7
+  Bugfixes:
+    - Fixed advanced flamethrower projectiles arc
+    - Fixed walls not having acid resistance (basic 15%, mend 30%, reinforced 70%)
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.11
+Date: 2. 8. 2019
+  Bugfixes:
+    - Fixed advanced tank and nuclear tank collision box so that you can get out of the tank regardless of orientation
+    - Fixed gun barrel length advanced tank, nuclear tank, advanced car, nuclear car
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.10
+Date: 2. 7. 2019
+  Improvements:
+    - Added support for bobs vehicle equipment in Rampant Arsenal vehicles
+    - Added Portable nuclear generator for use in Power Armor Mk3 and nuclear vehicles
+    - Added movement equipment to locomotive and nuclear locomotive.
+    - Added a small script to help clean up landmine ghosts when the capsule launcher shoots into an area with landmine ghosts
+  Tweaks:
+    - Increased incendiary land mine trigger range from 2.5 to 3.5
+    - Increased he land mine trigger range from 2.5 to 7.5
+    - Increased bio land mine trigger range from 2.5 to 5.5
+    - Reduced he land mine capsule to only deploy a single landmine
+    - Reduced bio land mine capsule to only deploy a single landmine
+    - Reduced incendiary land mine to deploy 3 instead of 4 landmine
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.9
+Date: 4. 11. 2018
+  Bugfixes:
+    - Fixed oil generator input-output value on opposite end of entity
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.8
+Date: 17. 6. 2018
+  Bugfixes:
+    - Fixed Battery equipment 2 to 3 for technology naming
+    - Changed expensive recipes versions from 2 to 1.5 to rounded down of normal recipe cost
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.7
+Date: 9. 6. 2018
+  Features:
+    - Added a stronger tank and a nuclear option that uses uranium fuel cells both have equipment grids
+    - Added a stronger car and a nuclear option that uses uranium fuel cells both have equipment grids
+    - Added a nuclear train that uses uranium fuel cells that has an equipment grid
+    - Added Oil burner for generating electricity from oils
+    - All Equipment grids share equipment, mobility based equipment is disabled when appropriate
+    - Added Belt Immunity Equipment
+    - Added Power Armor Mk 3
+    - Added Reinforced concrete walls and gates
+    - Added tier 3 generator, battery, shield
+    - Added Personal defense cannon, shotgun, lightning, bullets, and slowing equipment
+    - Added infinite tech for increasing player health
+  Tweaks:
+    - Increased Gun Turrets 2 from 75 science to 250 science
+    - Added (Fuel value, emission multipler) to: Light oil (0.75MJ, 2), Crude Oil (1.15MJ, 4), Heavy Oil (0.5MJ, 3), Petroleum-gas (1.75MJ, 1.5), Napalm (1.25MJ, 4.5)
+    - Added stats to uranium fuel cell (150% acceleration, 110% top speed, 3 emissions multipler)
+    - Added emission multiplier to solid fuel 0.75, rocket-fuel 1.5, coal 2, nuclear-fuel 4
+    - Added 8x8 equipment grid to car, cargo-wagon, fluid-wagon
+    - Added 10x10 equipment grid to tank
+    - Added 12x12 equipment grid to locomotive
+    - Added 16x16 equipment grid to artillery-wagon
+    - Increased nuclear fuel stack size from 1 to 10
+    - Changed ammo category of personal laser and discharge defense so they get laser damage and speed bonuses
+    - Added electric, posion, laser resistance on modular armor, power armor, and power armor mk2
+    - Increased power armor mk2 acid resistance (decrease, percent) from (10, 40) to (15, 50)
+    - Added posion and electric resistance to wall, gate, mending wall, and mending gate
+    - Changed battery to accumulator and advanced circuit to processing unit in advanced laser recipe
+    - Changed mending gate recipe to mending wall and advanced circuits from gate and repair-capsule
+    - Decreased wall and gate laser resistance from 70 percent to 30
+    - Fixed mending wall and gate build order in GUI
+    - Increased equipment solar panel equipment from 10kW to 30kW
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.6
+Date: 3. 6. 2018
+  Bugfixes:
+    - Fixed bio artillery shell having having 100 ammo per item
+    - Fixed landmine stack count
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.5
+Date: 1. 6. 2018
+  Features:
+    - Added tier 0 turret for before first turret research
+    - Added Reactive Healing Walls and gates that when they take damage emit a repair cloud for themselves and immediate neighbors
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.4
+Date: 31. 5. 2018
+  Bugfixes:
+    - Upgraded Rocket Launcher icon and ammo type fix
+    - Actually updated advanced flamethrower turret fluid consumption to 12/s
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.3
+Date: 26. 5. 2018
+  Features:
+    - Added mortar for mobile capsule launching
+    - Added launcher capsule damage into grenade damage technology
+    - Added capsule launcher damage technology
+    - Added Health Capsule for healing
+    - Added Repair Capsule for AoE repair
+    - Added Speed Boost Capsule for faster earlier game movement
+    - Added Minigun with a slight damage bump and range over submachinegun
+    - Added Napalm liquid for flamethrower turret upgraded liquid
+    - Added Launcher Capsules for all new capsules
+    - Added High Explosives landmines, grenades, bullets, rockets, shotgun shells, cannon shells, and artillery shells
+    - Added Incendiary landmines, grenades, bullets, rockets, shotgun shells, cannon shells, and artillery shells
+    - Added Bio landmines, grenades, bullets, rockets, shotgun shells, cannon shells, and artillery shells
+    - Added Nuclear landmines, and artillery shells
+    - Added Upgraded gun turret for extending the life of bullet turrets
+    - Added Medic Turret for healing around the turret when enemies are present
+    - Added High Explosives technology branch
+    - Added Regeneration technology branch
+    - Added Incendiary technology branch
+    - Added Bio technology branch
+    - Added Upgraded Rocket launcher with a slight damage bump and range
+  Improvements:
+    - reworked grenade and cluster grenade laucher ammo
+  Tweaks:
+    - Increased Cluster Grenades total damage from 245 to 1575
+    - Doubled uranium cannon shells damage
+    - Increased explosive uranium cannon shell area from 4.5 to 8.5
+    - Increased advanced flamethrower turret fluid consumption from 9/s to 12/s
+    - Increased shotgun turret range from 18 to 20
+    - Increased capsule turret range from 30 to 32
+    - Increased capsule turret damage modifier from 100% to 300%
+    - Increased capsule turret cooldown from 150 to 350
+    - Moved Slowdown and poison capsule from Military-3 to Military-2
+    - Moved Piercing shotgun shells from Military-4 to Military-3
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.2
+Date: 25. 5. 2018
+  Improvements:
+    - Added landmine damage technology
+    - Added artillery damage technology
+    - Added artillery shell damage technology
+  Tweaks:
+    - Shotgun turret tech now requires military-1
+    - Increased lightning tower damage from base 20 to 180
+    - Increased advanced laser power requirement from 80MW to 700MW
+    - Increased advanced laser cooldown from 120 to 240
+    - Increased advanced laser drain from 75kW to 150kW
+  Bugfixes:
+    - Fixed prerequisites for shotgun damage from cannon to shotgun turret
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.1
+Date: 25. 5. 2018
+  Bugfixes:
+    - Fixed missing setting error
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.0
+Date: 25. 5. 2018
+  Changes:
+    - Initial Release

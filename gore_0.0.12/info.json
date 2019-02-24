@@ -1,0 +1,9 @@
+{
+	"name": "gore",
+	"version": "0.0.12",
+	"title": "Gore",
+	"author": "ownlyme",
+	"description": "Blood, gore, violence, splatter",
+	"factorio_version": "0.16",
+	"dependencies": ["base >= 0.16.0"]
+}

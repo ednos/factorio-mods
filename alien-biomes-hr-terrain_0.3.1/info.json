@@ -1,0 +1,10 @@
+{
+	"name": "alien-biomes-hr-terrain",
+	"version": "0.3.1",
+	"title": "Alien Biomes High-Res Terrain",
+	"author": "Earendel",
+	"dependencies": ["base >= 0.16.0"],
+	"description": "The high-resolution textures for Alien Biomes.",
+	"factorio_version": "0.16",
+	"homepage":"https://forums.factorio.com/viewtopic.php?f=144&t=38832&p=234155"
+}
